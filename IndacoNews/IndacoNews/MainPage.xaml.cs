@@ -1,4 +1,6 @@
-﻿using System;
+﻿using IndacoNews.Entities;
+using IndacoNews.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +23,7 @@ namespace IndacoNews
 
         private async void OnAboutClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Views.InfoView());
+            await Navigation.PushAsync(new InfoPage());
         }
 
         private async void OnDownloadNewsClicked(object sender, EventArgs e)
