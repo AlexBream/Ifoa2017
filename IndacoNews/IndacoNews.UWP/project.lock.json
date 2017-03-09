@@ -25366,16 +25366,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alle\\Dev\\Ifoa_2017\\IndacoNews\\IndacoNews\\IndacoNews.UWP\\IndacoNews.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Alle\\Dev\\Ifoa_2017\\Indaco\\IndacoNews\\IndacoNews.UWP\\IndacoNews.UWP.csproj",
       "projectName": "IndacoNews.UWP",
-      "projectPath": "C:\\Users\\Alle\\Dev\\Ifoa_2017\\IndacoNews\\IndacoNews\\IndacoNews.UWP\\IndacoNews.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\Alle\\Dev\\Ifoa_2017\\IndacoNews\\IndacoNews\\IndacoNews.UWP\\project.json",
+      "projectPath": "C:\\Users\\Alle\\Dev\\Ifoa_2017\\Indaco\\IndacoNews\\IndacoNews.UWP\\IndacoNews.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\Alle\\Dev\\Ifoa_2017\\Indaco\\IndacoNews\\IndacoNews.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\Alle\\Dev\\Ifoa_2017\\IndacoNews\\IndacoNews\\IndacoNews\\IndacoNews.csproj": {
-              "projectPath": "C:\\Users\\Alle\\Dev\\Ifoa_2017\\IndacoNews\\IndacoNews\\IndacoNews\\IndacoNews.csproj"
+            "C:\\Users\\Alle\\Dev\\Ifoa_2017\\Indaco\\IndacoNews\\IndacoNews\\IndacoNews.csproj": {
+              "projectPath": "C:\\Users\\Alle\\Dev\\Ifoa_2017\\Indaco\\IndacoNews\\IndacoNews\\IndacoNews.csproj"
             }
           }
         }
@@ -25384,7 +25384,7 @@
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.1",
       "System.Net.Http": "4.3.1",
-      "Xamarin.Forms": "[2.3.4.192-pre2, )"
+      "Xamarin.Forms": "2.3.4.192-pre2"
     },
     "frameworks": {
       "uap10.0": {}
