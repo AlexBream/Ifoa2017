@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IndacoNews"
+             x:Class="IndacoNews.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Refresh" Icon="Reload.png" Clicked="OnRefreshClicked" Order="Primary" Priority="0" />
+        <ToolbarItem Text="About" Icon="Info.png" Clicked="OnAboutClicked" Order="Primary" Priority="1" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="HeaderStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            <DataTemplate x:Key="NewsTemplate">
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Padding="0, 0, 0, 20">
+                            <Label Text="{Binding PublishDate}" />
+                            <Label Text="{Binding Title}" Style="{StaticResource HeaderStyle}" />
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="12, 0, 12, 0">
+        <Button Text="Download news" Clicked="OnDownloadNewsClicked" />
+        <ActivityIndicator x:Name="LoadingIndicator" IsVisible="False" />
+        <ListView x:Name="News" ItemTemplate="{StaticResource NewsTemplate}" ItemSelected="OnNewsSelected" RowHeight="120" />
+    </StackLayout>
+
+</ContentPage>
