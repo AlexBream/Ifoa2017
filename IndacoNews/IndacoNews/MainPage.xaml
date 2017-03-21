@@ -21,6 +21,7 @@
                         <StackLayout Padding="0, 0, 0, 20">
                             <Label Text="{Binding PublishDate}" />
                             <Label Text="{Binding Title}" Style="{StaticResource HeaderStyle}" />
+                            <WebView Source="{Binding HtmlSource}" VerticalOptions ="FillAndExpand"/>
                         </StackLayout>
                     </ViewCell.View>
                 </ViewCell>
@@ -31,7 +32,7 @@
     <StackLayout Padding="12, 0, 12, 0">
         <Button Text="Download news" Clicked="OnDownloadNewsClicked" />
         <ActivityIndicator x:Name="LoadingIndicator" IsVisible="False" />
-        <ListView x:Name="News" ItemTemplate="{StaticResource NewsTemplate}" ItemSelected="OnNewsSelected" RowHeight="120" />
+        <ListView x:Name="News" ItemTemplate="{StaticResource NewsTemplate}" ItemSelected="OnNewsSelected" RowHeight="200" />
     </StackLayout>
 
 </ContentPage>

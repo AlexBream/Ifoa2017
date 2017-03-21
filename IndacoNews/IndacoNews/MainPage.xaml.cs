@@ -37,8 +37,16 @@ namespace IndacoNews
             LoadingIndicator.IsRunning = true;
 
             RssService service = new RssService();
-            IEnumerable<FeedItem> items = await service.GetNews("http://indaco.coop/feed/");
-            News.ItemsSource = items;
+            IEnumerable<FeedItem> items = await service.GetNews("http://www.indaco.coop/feed/");
+
+            var itemsWithHtml = items.Select(i => new
+            {
+                i.Title,
+                i.PublishDate,
+                HtmlSource = new HtmlWebViewSource { Html = i.Description },
+            });
+
+            News.ItemsSource = itemsWithHtml;
             LoadingIndicator.IsRunning = false;
         }
 
