@@ -29,7 +29,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.0": {
+      "Microsoft.Net.Native.Compiler/1.6.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.0",
@@ -239,14 +239,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.1": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.0",
+          "Microsoft.Net.Native.Compiler": "1.6.1",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -2302,7 +2302,7 @@
           }
         }
       },
-      "Xamarin.Forms/2.3.4.212-pre4": {
+      "Xamarin.Forms/2.3.4.224": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -2352,7 +2352,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.0": {
+      "Microsoft.Net.Native.Compiler/1.6.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.0",
@@ -2509,14 +2509,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.1": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.0",
+          "Microsoft.Net.Native.Compiler": "1.6.1",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -4649,7 +4649,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.212-pre4": {
+      "Xamarin.Forms/2.3.4.224": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -4699,7 +4699,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.0": {
+      "Microsoft.Net.Native.Compiler/1.6.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.0",
@@ -4857,14 +4857,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.1": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.0",
+          "Microsoft.Net.Native.Compiler": "1.6.1",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -7035,7 +7035,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.212-pre4": {
+      "Xamarin.Forms/2.3.4.224": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -7085,7 +7085,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.0": {
+      "Microsoft.Net.Native.Compiler/1.6.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.0",
@@ -7245,14 +7245,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.1": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.0",
+          "Microsoft.Net.Native.Compiler": "1.6.1",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -9391,7 +9391,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.212-pre4": {
+      "Xamarin.Forms/2.3.4.224": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -9441,7 +9441,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.0": {
+      "Microsoft.Net.Native.Compiler/1.6.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.0",
@@ -9602,14 +9602,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.1": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.0",
+          "Microsoft.Net.Native.Compiler": "1.6.1",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -11786,7 +11786,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.212-pre4": {
+      "Xamarin.Forms/2.3.4.224": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -11836,7 +11836,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.0": {
+      "Microsoft.Net.Native.Compiler/1.6.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.0",
@@ -11996,14 +11996,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.1": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.0",
+          "Microsoft.Net.Native.Compiler": "1.6.1",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -14142,7 +14142,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.212-pre4": {
+      "Xamarin.Forms/2.3.4.224": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -14192,7 +14192,7 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.6.0": {
+      "Microsoft.Net.Native.Compiler/1.6.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Net.Native.SharedLibrary-arm": "1.6.0",
@@ -14353,14 +14353,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.1": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.6.0",
+          "Microsoft.Net.Native.Compiler": "1.6.1",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -16537,7 +16537,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.212-pre4": {
+      "Xamarin.Forms/2.3.4.224": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -16618,14 +16618,14 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.Net.Native.Compiler/1.6.0": {
-      "sha512": "ZWKiTdHteE3oSVoD6y2wb2k//Om2M5oMx8qIHXUbYdCCXvGL8isMnlwfIKmeft3L57imGDwd8PknuE588I4KeA==",
+    "Microsoft.Net.Native.Compiler/1.6.1": {
+      "sha512": "Xi4AB0vkO7o8krFGdl5XWXsG2lIljmIqdBc+XMi338Kp4iv57Y3j129d3gQeTikRduAsQ1uqEXUwogDfmkqtWA==",
       "type": "package",
-      "path": "microsoft.net.native.compiler/1.6.0",
+      "path": "microsoft.net.native.compiler/1.6.1",
       "files": [
         "build/Microsoft.Net.Native.Compiler.props",
         "build/Microsoft.Net.Native.Compiler.targets",
-        "microsoft.net.native.compiler.1.6.0.nupkg.sha512",
+        "microsoft.net.native.compiler.1.6.1.nupkg.sha512",
         "microsoft.net.native.compiler.nuspec",
         "tools/LibraryXML/Callisto.rd.xml",
         "tools/LibraryXML/GalaSoft.MvvmLight.Extras.Win8.rd.xml",
@@ -18856,14 +18856,14 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.UniversalWindowsPlatform/5.3.1": {
-      "sha512": "pYCI0GC3pt29yFzhboHYnWmTIjaJ2K/L/aPNOHshrM1yQojxIp8cYdcDDd27r4GCSrSnkELVJ/x38OF06jqdmQ==",
+    "Microsoft.NETCore.UniversalWindowsPlatform/5.3.2": {
+      "sha512": "bkCwDauf84lNL4BOXwa6+LWmimtAroK9TtdTrAlrMU4q0RipFnMx1mIpQBVZ9tqc6fD2B8BaqoqDRFlodcF6TA==",
       "type": "package",
-      "path": "microsoft.netcore.universalwindowsplatform/5.3.1",
+      "path": "microsoft.netcore.universalwindowsplatform/5.3.2",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "microsoft.netcore.universalwindowsplatform.5.3.1.nupkg.sha512",
+        "microsoft.netcore.universalwindowsplatform.5.3.2.nupkg.sha512",
         "microsoft.netcore.universalwindowsplatform.nuspec"
       ]
     },
@@ -25189,10 +25189,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Xamarin.Forms/2.3.4.212-pre4": {
-      "sha512": "od6kCe4EUtk4CIAH3i0p6oG3HFvHuJ052jUAll5VVCKGEQWIlrq7JMvO4QLsX6OGdUf4/QECYanOGnqpkutAMg==",
+    "Xamarin.Forms/2.3.4.224": {
+      "sha512": "cjA3h83bCmnEjEYLcvi2n+rPc3rs3kuB/r5z5R/BFtBLp8kgV8AEImKBcYglsZ80uX3OSIVnPXN9lJ25GMGAmg==",
       "type": "package",
-      "path": "xamarin.forms/2.3.4.212-pre4",
+      "path": "xamarin.forms/2.3.4.224",
       "files": [
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Mdb.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Pdb.dll",
@@ -25342,7 +25342,7 @@
         "lib/wpa81/Xamarin.Forms.Platform.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.2.3.4.212-pre4.nupkg.sha512",
+        "xamarin.forms.2.3.4.224.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -25354,9 +25354,9 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.1",
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.2",
       "System.Net.Http >= 4.3.1",
-      "Xamarin.Forms >= 2.3.4.212-pre4"
+      "Xamarin.Forms >= 2.3.4.224"
     ],
     "UAP,Version=v10.0": []
   },
@@ -25381,9 +25381,9 @@
       }
     },
     "dependencies": {
-      "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.1",
+      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.3.2, )",
       "System.Net.Http": "4.3.1",
-      "Xamarin.Forms": "[2.3.4.212-pre4, )"
+      "Xamarin.Forms": "2.3.4.224"
     },
     "frameworks": {
       "uap10.0": {}
